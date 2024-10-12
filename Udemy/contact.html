@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testing HTML</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>CONTACT PAGE</h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Index</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li>
+          <a
+            href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjBl8HG34iJAxU0GRAIHU93IqAQPAgI"
+            target="_blank"
+            >Google</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <form action="contact.html" id="contact">
+      <fieldset>
+        <div>
+          <label for="name">Your Name</label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div>
+          <label for="email">Your Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div>
+          <label for="seldept">Which Department?</label>
+          <select name="seldept" id="seldept">
+            <option value="Shipping">one</option>
+            <option value="Sales">two</option>
+            <option value="Marketing">three</option>
+          </select>
+        </div>
+        <div>
+          <label for="message">Message</label><br />
+          <textarea name="message" id="message"></textarea>
+        </div>
+        <div>
+          <input type="submit" value="Contact Us" />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
